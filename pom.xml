@@ -7,7 +7,13 @@
 	<version>1.10-SNAPSHOT</version>
 	<name>kagura-camel</name>
 
-	<dependencies>
+    <parent>
+        <groupId>com.kagurabi</groupId>
+        <artifactId>Kagura-bom</artifactId>
+        <version>1.10-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
         <!-- java -->
         <dependency>
             <groupId>javax.persistence</groupId>
@@ -239,18 +245,6 @@
         </dependency>
 
     </dependencies>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.kagurabi</groupId>
-                <artifactId>Kagura-bom</artifactId>
-                <version>1.10-SNAPSHOT</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
 		<finalName>kagura-camel</finalName>
