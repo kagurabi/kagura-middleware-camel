@@ -8,7 +8,7 @@
 	<name>kagura-camel</name>
 
     <parent>
-        <groupId>com.kagurabi</groupId>
+        <groupId>com.kagurabi.services</groupId>
         <artifactId>Kagura-karaf-bom</artifactId>
         <version>1.10-SNAPSHOT</version>
     </parent>
