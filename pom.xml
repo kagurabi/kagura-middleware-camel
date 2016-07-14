@@ -5,7 +5,7 @@
 	<artifactId>Kagura-camel</artifactId>
 	<packaging>bundle</packaging>
 	<version>1.10-SNAPSHOT</version>
-	<name>kagura-camel</name>
+	<name>Kagura-camel</name>
 
     <parent>
         <groupId>com.kagurabi.services</groupId>
@@ -258,7 +258,7 @@
     </dependencies>
 
     <build>
-		<finalName>kagura-camel</finalName>
+		<finalName>Kagura-camel</finalName>
 
         <plugins>
             <!-- Facilitates downloading source and javadoc in Eclipse -->
